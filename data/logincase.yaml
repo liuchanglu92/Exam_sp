@@ -1,0 +1,12 @@
+# 注释 登录接口
+-
+  url: /api/loginS
+  methon: POST
+- #test_01用例
+  detail: 账号和密码都正确
+  data:
+    username: "20154084"
+    password: "1"
+  resp:
+    code: 200
+    message: "登录成功"
